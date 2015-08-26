@@ -1,0 +1,23 @@
+.heading{
+  font-size: 5em;
+}
+.counter{
+  font-size: 4em;
+}
+.roboto{
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-weight: 200;
+}
+.content{
+  margin-top: 50px;
+}
+.wrapper{
+  z-index: auto;
+  min-height: 100%;
+height: auto !important;
+}
+
+.glyphicon:hover{
+  color:yellow;
+}

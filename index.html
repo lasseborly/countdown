@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Musse Countdown</title>
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,100' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/app.css" media="screen" title="no title" charset="utf-8">
+
+  </head>
+  <body>
+    <!--
+ ███▄ ▄███▓ █    ██   ██████   ██████ ▓█████     ▄████▄   ▒█████   █    ██  ███▄    █ ▄▄▄█████▓▓█████  ██▀███
+▓██▒▀█▀ ██▒ ██  ▓██▒▒██    ▒ ▒██    ▒ ▓█   ▀    ▒██▀ ▀█  ▒██▒  ██▒ ██  ▓██▒ ██ ▀█   █ ▓  ██▒ ▓▒▓█   ▀ ▓██ ▒ ██▒
+▓██    ▓██░▓██  ▒██░░ ▓██▄   ░ ▓██▄   ▒███      ▒▓█    ▄ ▒██░  ██▒▓██  ▒██░▓██  ▀█ ██▒▒ ▓██░ ▒░▒███   ▓██ ░▄█ ▒
+▒██    ▒██ ▓▓█  ░██░  ▒   ██▒  ▒   ██▒▒▓█  ▄    ▒▓▓▄ ▄██▒▒██   ██░▓▓█  ░██░▓██▒  ▐▌██▒░ ▓██▓ ░ ▒▓█  ▄ ▒██▀▀█▄
+▒██▒   ░██▒▒▒█████▓ ▒██████▒▒▒██████▒▒░▒████▒   ▒ ▓███▀ ░░ ████▓▒░▒▒█████▓ ▒██░   ▓██░  ▒██▒ ░ ░▒████▒░██▓ ▒██▒
+░ ▒░   ░  ░░▒▓▒ ▒ ▒ ▒ ▒▓▒ ▒ ░▒ ▒▓▒ ▒ ░░░ ▒░ ░   ░ ░▒ ▒  ░░ ▒░▒░▒░ ░▒▓▒ ▒ ▒ ░ ▒░   ▒ ▒   ▒ ░░   ░░ ▒░ ░░ ▒▓ ░▒▓░
+░  ░      ░░░▒░ ░ ░ ░ ░▒  ░ ░░ ░▒  ░ ░ ░ ░  ░     ░  ▒     ░ ▒ ▒░ ░░▒░ ░ ░ ░ ░░   ░ ▒░    ░     ░ ░  ░  ░▒ ░ ▒░
+░      ░    ░░░ ░ ░ ░  ░  ░  ░  ░  ░     ░      ░        ░ ░ ░ ▒   ░░░ ░ ░    ░   ░ ░   ░         ░     ░░   ░
+      ░      ░           ░        ░     ░  ░   ░ ░          ░ ░     ░              ░             ░  ░   ░
+
+   Hello there! Interested in my stuff? I use a couple of libraries for this page. Tjek them out at the bottom
+   of this page. See ya!
+   -->
+    <div id="app" class="container">
+      <div class="">
+        <nav class="nav pull-right">
+          <span class="glyphicon glyphicon-play tubular-play" aria-hidden="true"></span>
+          <span class="glyphicon glyphicon-pause tubular-pause" aria-hidden="true"></span>
+          <span class="glyphicon glyphicon-volume-off tubular-mute" aria-hidden="true"></span>
+          <span class="glyphicon glyphicon-volume-down tubular-volume-down" aria-hidden="true"></span>
+          <span class="glyphicon glyphicon-volume-up tubular-volume-up" aria-hidden="true"></span>
+        </nav>
+      </div>
+      <div class="center-blok content">
+        <h1 class="text-center heading roboto">Musse Countdown</h1>
+        <div class="text-center counter">
+          <h3 class="roboto">Hej Musse, der er {{days}} dage, {{hours}} timer, {{minutes}} minutter og {{seconds}} sekunder til jeg kommer hjem til dig!</h3>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="http://cdn.jsdelivr.net/vue/0.12.11/vue.min.js" charset="utf-8"></script>
+
+    <script src="js/moment-with-locales.js" charset="utf-8"></script>
+
+    <!-- <script src="https://code.jquery.com/ui/1.11.3/jquery-ui.js"></script>
+    <script src="http://imagesloaded.desandro.com/imagesloaded.pkgd.min.js"></script>
+    <script src="http://vjs.zencdn.net/4.12/video.js"></script>
+    <script src="js/bigvideo.js" charset="utf-8"></script> -->
+
+    <script src="js/jquery.tubular.1.0.js" charset="utf-8"></script>
+
+    <script src="js/app.js" charset="utf-8"></script>
+  </body>
+</html>
