@@ -7,7 +7,7 @@ new Vue({
     hours: 0,
     days: 0,
     diff: 0,
-    returnDate: '2015-08-27 02:23',
+    returnDate: '2016-02-18 18:00',
   },
 
   methods: {
