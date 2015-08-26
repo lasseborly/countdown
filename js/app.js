@@ -37,6 +37,7 @@ new Vue({
 });
 
 $('document').ready(function() {
+                $('.content').fadeIn(4000);
                 $('#app').tubular({
                   videoId: 'A9Tp5fl18Ho',
                   mute: false,
