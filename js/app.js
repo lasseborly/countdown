@@ -20,7 +20,8 @@ new Vue({
       this.seconds = parseInt((this.diff / 1000) % 60);
       this.minutes = parseInt((this.diff / (1000*60)) % 60);
       this.hours = parseInt((this.diff / (1000*60*60)) % 24);
-      this.days = parseInt((this.diff / (1000*60*60*24)) % 7);
+      this.days = parseInt((this.diff / (1000*60*60*24)));
+
     },
     updateTime: function(){
       this.setDiff();
